@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./Buoi 1/Lab 3/secure_logger_ lab/secure-validator-lab"
+    ]
+}

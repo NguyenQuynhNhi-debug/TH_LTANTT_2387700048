@@ -1,0 +1,54 @@
+[2026-09-23 15:19:28.412452] Bandit not installed. Run: pip install bandit
+[2026-09-23 16:07:51.271864] File .vscode/settings.json is world-writable!
+[2026-09-23 16:07:51.272508] File Buoi 1/Lab 2/README.md is world-writable!
+[2026-09-23 16:07:51.272969] File Buoi 1/Lab 3/secure_logger_ lab/README.md is world-writable!
+[2026-09-23 16:07:51.273370] File Buoi 1/Lab 3/secure_logger_ lab/app.py is world-writable!
+[2026-09-23 16:07:51.273817] File Buoi 1/Lab 3/secure_logger_ lab/requirements.txt is world-writable!
+[2026-09-23 16:07:51.274242] File Buoi 1/Lab 3/secure_logger_ lab/secure.log is world-writable!
+[2026-09-23 16:07:51.274772] File Buoi 1/Lab 3/secure_logger_ lab/securelogger/__init__.py is world-writable!
+[2026-09-23 16:07:51.275068] File Buoi 1/Lab 3/secure_logger_ lab/securelogger/__pycache__/__init__.cpython-313.pyc is world-writable!
+[2026-09-23 16:07:51.275530] File Buoi 1/Lab 3/secure_logger_ lab/securelogger/__pycache__/logger.cpython-313.pyc is world-writable!
+[2026-09-23 16:07:51.275915] File Buoi 1/Lab 3/secure_logger_ lab/securelogger/logger.py is world-writable!
+[2026-09-23 16:07:51.276294] File Buoi 1/Lab 3/secure_logger_ lab/securevalidator/__init__.py is world-writable!
+[2026-09-23 16:07:51.276732] File Buoi 1/Lab 3/secure_logger_ lab/securevalidator/__pycache__/__init__.cpython-313.pyc is world-writable!
+[2026-09-23 16:07:51.277195] File Buoi 1/Lab 3/secure_logger_ lab/securevalidator/__pycache__/core.cpython-313.pyc is world-writable!
+[2026-09-23 16:07:51.277683] File Buoi 1/Lab 3/secure_logger_ lab/securevalidator/core.py is world-writable!
+[2026-09-23 16:07:51.278209] File Buoi 1/Lab 3/secure_logger_ lab/templates/index.html is world-writable!
+[2026-09-23 16:07:51.278767] File gitsecure.log is world-writable!
+[2026-09-23 16:07:51.279397] Bandit not installed. Run: pip install bandit
+[2026-09-23 16:12:06.470330] File .vscode/settings.json is world-writable!
+[2026-09-23 16:12:06.471024] File Buoi 1/Lab 2/README.md is world-writable!
+[2026-09-23 16:12:06.471601] File Buoi 1/Lab 2/requirements.txt is world-writable!
+[2026-09-23 16:12:06.471951] File Buoi 1/Lab 3/secure_logger_ lab/README.md is world-writable!
+[2026-09-23 16:12:06.472324] File Buoi 1/Lab 3/secure_logger_ lab/app.py is world-writable!
+[2026-09-23 16:12:06.472886] File Buoi 1/Lab 3/secure_logger_ lab/requirements.txt is world-writable!
+[2026-09-23 16:12:06.473295] File Buoi 1/Lab 3/secure_logger_ lab/secure.log is world-writable!
+[2026-09-23 16:12:06.473676] File Buoi 1/Lab 3/secure_logger_ lab/securelogger/__init__.py is world-writable!
+[2026-09-23 16:12:06.474021] File Buoi 1/Lab 3/secure_logger_ lab/securelogger/__pycache__/__init__.cpython-313.pyc is world-writable!
+[2026-09-23 16:12:06.474465] File Buoi 1/Lab 3/secure_logger_ lab/securelogger/__pycache__/logger.cpython-313.pyc is world-writable!
+[2026-09-23 16:12:06.474992] File Buoi 1/Lab 3/secure_logger_ lab/securelogger/logger.py is world-writable!
+[2026-09-23 16:12:06.475559] File Buoi 1/Lab 3/secure_logger_ lab/securevalidator/__init__.py is world-writable!
+[2026-09-23 16:12:06.476150] File Buoi 1/Lab 3/secure_logger_ lab/securevalidator/__pycache__/__init__.cpython-313.pyc is world-writable!
+[2026-09-23 16:12:06.476578] File Buoi 1/Lab 3/secure_logger_ lab/securevalidator/__pycache__/core.cpython-313.pyc is world-writable!
+[2026-09-23 16:12:06.476947] File Buoi 1/Lab 3/secure_logger_ lab/securevalidator/core.py is world-writable!
+[2026-09-23 16:12:06.477511] File Buoi 1/Lab 3/secure_logger_ lab/templates/index.html is world-writable!
+[2026-09-23 16:12:06.478146] File gitsecure.log is world-writable!
+[2026-09-23 16:12:06.478648] Bandit not installed. Run: pip install bandit
+[2026-09-23 16:12:42.681185] File .vscode/settings.json is world-writable!
+[2026-09-23 16:12:42.681809] File Buoi 1/Lab 2/README.md is world-writable!
+[2026-09-23 16:12:42.682123] File Buoi 1/Lab 2/requirements.txt is world-writable!
+[2026-09-23 16:12:42.682401] File Buoi 1/Lab 3/secure_logger_ lab/README.md is world-writable!
+[2026-09-23 16:12:42.682698] File Buoi 1/Lab 3/secure_logger_ lab/app.py is world-writable!
+[2026-09-23 16:12:42.683008] File Buoi 1/Lab 3/secure_logger_ lab/requirements.txt is world-writable!
+[2026-09-23 16:12:42.683300] File Buoi 1/Lab 3/secure_logger_ lab/secure.log is world-writable!
+[2026-09-23 16:12:42.683584] File Buoi 1/Lab 3/secure_logger_ lab/securelogger/__init__.py is world-writable!
+[2026-09-23 16:12:42.684045] File Buoi 1/Lab 3/secure_logger_ lab/securelogger/__pycache__/__init__.cpython-313.pyc is world-writable!
+[2026-09-23 16:12:42.684530] File Buoi 1/Lab 3/secure_logger_ lab/securelogger/__pycache__/logger.cpython-313.pyc is world-writable!
+[2026-09-23 16:12:42.684878] File Buoi 1/Lab 3/secure_logger_ lab/securelogger/logger.py is world-writable!
+[2026-09-23 16:12:42.685295] File Buoi 1/Lab 3/secure_logger_ lab/securevalidator/__init__.py is world-writable!
+[2026-09-23 16:12:42.685768] File Buoi 1/Lab 3/secure_logger_ lab/securevalidator/__pycache__/__init__.cpython-313.pyc is world-writable!
+[2026-09-23 16:12:42.686239] File Buoi 1/Lab 3/secure_logger_ lab/securevalidator/__pycache__/core.cpython-313.pyc is world-writable!
+[2026-09-23 16:12:42.687003] File Buoi 1/Lab 3/secure_logger_ lab/securevalidator/core.py is world-writable!
+[2026-09-23 16:12:42.687552] File Buoi 1/Lab 3/secure_logger_ lab/templates/index.html is world-writable!
+[2026-09-23 16:12:42.688199] File gitsecure.log is world-writable!
+[2026-09-23 16:12:42.688925] Bandit not installed. Run: pip install bandit
