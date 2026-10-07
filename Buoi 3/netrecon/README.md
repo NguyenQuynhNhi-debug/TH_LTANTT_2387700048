@@ -27,7 +27,7 @@ Hệ thống đã được kiểm thử thông qua cả môi trường dòng l�
 
 ### Test Case 1: Quét Cổng qua Giao diện Dòng lệnh (CLI Port Scan)
 ![alt text](image-1.png)
-- **Mô tả:** Sử dụng lệnh `python cli.py --target scanme.nmap.org --ports 22,80 --mode scan` để kiểm tra trạng thái mở/đóng của các cổng dịch vụ trên mục tiêu từ xa[cite: 25, 27].
+- **Mô tả:** Sử dụng lệnh `python cli.py --target scanme.nmap.org --ports 22,80 --mode scan` để kiểm tra trạng thái mở/đóng của các cổng dịch vụ trên mục tiêu từ xa.
 - **Kỹ thuật áp dụng:** Sử dụng `asyncio.Semaphore` quản lý giới hạn tốc độ kết nối đồng thời qua `async_scan_ports`.
 - **Kết quả thực hiện:** 
   * Kết quả trả về thành công các cổng đang mở: `[+] 80/tcp open` và `[+] 22/tcp open`
