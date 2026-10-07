@@ -1,6 +1,6 @@
 # Báo cáo Thực hành: NetRecon
 
-## 1. Giới thiệu dự án
+## 1. Giới thiệu
 Dự án này xây dựng một hệ thống công cụ trinh sát mạng (`netrecon`) dạng mô-đun kết hợp giữa giao diện dòng lệnh (**CLI**) và giao diện web (**Flask + HTMX**). Hệ thống cho phép thực hiện các kỹ thuật thu thập thông tin mục tiêu mạng, bao gồm:
 - **Quét cổng bất đồng bộ (Asynchronous Port Scanning):** Sử dụng thư viện `asyncio` để tối ưu hóa tốc độ quét các cổng TCP.
 - **Phát hiện dịch vụ & Banner Grabbing:** Tích hợp công cụ `nmap` và socket thuần túy để nhận diện chi tiết dịch vụ đang chạy và thông tin banner.
