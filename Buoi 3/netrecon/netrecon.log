@@ -734,3 +734,122 @@ Interface: 192.168.78.1 --- 0x16
   255.255.255.255       ff-ff-ff-ff-ff-ff     static    
 
 INFO:werkzeug:127.0.0.1 - - [07/Oct/2026 14:34:43] "POST /scan HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.12.26.13:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-277-027
+INFO:werkzeug:127.0.0.1 - - [07/Oct/2026 14:53:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Oct/2026 14:53:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:[2026-10-07 14:53:41] Running service detection on 10.14.89.200:22,80,443
+INFO:root:[2026-10-07 14:53:47] Starting Nmap 7.991 ( https://nmap.org ) at 2026-10-07 14:53 +0700
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 5.28 seconds
+
+INFO:root:[2026-10-07 14:53:53] Mapping network...
+INFO:root:[2026-10-07 14:53:53] 
+Interface: 192.168.136.1 --- 0x7
+  Internet Address      Physical Address      Type
+  192.168.136.254       00-50-56-fb-cd-e0     dynamic   
+  192.168.136.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.2             01-00-5e-00-00-02     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.250           01-00-5e-00-00-fa     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.0.253           01-00-5e-00-00-fd     static    
+  224.0.1.60            01-00-5e-00-01-3c     static    
+  224.77.77.77          01-00-5e-4d-4d-4d     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.192.0.0           01-00-5e-40-00-00     static    
+  239.255.102.18        01-00-5e-7f-66-12     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  239.255.255.251       01-00-5e-7f-ff-fb     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.116.1 --- 0xb
+  Internet Address      Physical Address      Type
+  192.168.116.254       00-50-56-ee-18-40     dynamic   
+  192.168.116.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.2             01-00-5e-00-00-02     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.250           01-00-5e-00-00-fa     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.0.253           01-00-5e-00-00-fd     static    
+  224.0.1.60            01-00-5e-00-01-3c     static    
+  224.77.77.77          01-00-5e-4d-4d-4d     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.192.0.0           01-00-5e-40-00-00     static    
+  239.255.102.18        01-00-5e-7f-66-12     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  239.255.255.251       01-00-5e-7f-ff-fb     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.254.1 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.254.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.2             01-00-5e-00-00-02     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.250           01-00-5e-00-00-fa     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.0.253           01-00-5e-00-00-fd     static    
+  224.0.1.60            01-00-5e-00-01-3c     static    
+  224.77.77.77          01-00-5e-4d-4d-4d     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.192.0.0           01-00-5e-40-00-00     static    
+  239.255.102.18        01-00-5e-7f-66-12     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  239.255.255.251       01-00-5e-7f-ff-fb     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 10.12.26.13 --- 0x14
+  Internet Address      Physical Address      Type
+  10.12.0.252           04-eb-40-38-89-e7     dynamic   
+  10.12.0.254           00-aa-6e-37-de-67     dynamic   
+  10.12.8.34            84-9e-56-20-34-59     dynamic   
+  10.12.21.116          00-41-0e-3e-8f-17     dynamic   
+  10.12.22.128          dc-21-48-83-20-9d     dynamic   
+  10.12.24.120          e8-b0-c5-90-5f-7e     dynamic   
+  10.12.28.132          b8-1e-a4-e6-04-df     dynamic   
+  10.12.36.14           e4-0d-36-84-dc-99     dynamic   
+  10.12.52.95           2c-6d-c1-58-8b-e9     dynamic   
+  10.12.55.248          2c-3b-70-dc-b0-ab     dynamic   
+  10.12.58.21           82-4f-1d-58-29-53     dynamic   
+  10.12.58.22           78-be-81-13-d0-2c     dynamic   
+  10.12.59.85           50-bb-b5-c0-43-1c     dynamic   
+  10.12.59.97           e8-b0-c5-2e-a2-70     dynamic   
+  10.12.70.252          44-38-e8-78-ce-3b     dynamic   
+  10.12.100.210         98-59-7a-b9-0a-e1     dynamic   
+  224.0.0.2             01-00-5e-00-00-02     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.0.253           01-00-5e-00-00-fd     static    
+  224.77.77.77          01-00-5e-4d-4d-4d     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.78.1 --- 0x16
+  Internet Address      Physical Address      Type
+  192.168.78.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.2             01-00-5e-00-00-02     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.250           01-00-5e-00-00-fa     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  224.0.0.253           01-00-5e-00-00-fd     static    
+  224.0.1.60            01-00-5e-00-01-3c     static    
+  224.77.77.77          01-00-5e-4d-4d-4d     static    
+  225.16.8.68           01-00-5e-10-08-44     static    
+  239.192.0.0           01-00-5e-40-00-00     static    
+  239.255.102.18        01-00-5e-7f-66-12     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  239.255.255.251       01-00-5e-7f-ff-fb     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+INFO:werkzeug:127.0.0.1 - - [07/Oct/2026 14:53:58] "POST /scan HTTP/1.1" 200 -

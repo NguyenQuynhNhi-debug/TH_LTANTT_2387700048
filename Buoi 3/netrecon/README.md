@@ -53,4 +53,10 @@ Hệ thống đã được kiểm thử thông qua cả môi trường dòng l�
 - **Mô tả:** Sau khi người dùng nhấn nút `Scan` trên giao diện web, hệ thống tổng hợp toàn bộ kết quả từ các module (quét cổng, nhận diện dịch vụ, ánh xạ mạng, kiểm tra lỗ hổng) và tự động gửi email thông báo qua máy chủ SMTP của Google.
 - **Kỹ thuật áp dụng:** Sử dụng module `email.message.EmailMessage` và `smtplib.SMTP_SSL` cổng `465` với thông tin xác thực bảo mật lấy từ tệp cấu hình môi trường `.env`.
 - **Kết quả thực hiện:** 
-  * Hiển thị chi tiết các phần kết quả trên trang `result.html`: `Service Detection`, `Banner
+  * Hiển thị chi tiết các phần kết quả trên trang `result.html`: `Service Detection`, `Banner.
+  ![alt text](image-6.png)
+  - **Mô tả:** Sau khi hoàn tất tiến trình phân tích từ các mô-đun (quét cổng bất đồng bộ, nhận diện dịch vụ qua nmap, thu thập banner và ánh xạ mạng), hệ thống tự động soạn thảo nội dung báo cáo và chuyển tiếp về địa chỉ email định danh (`nguyenquynhnhi.dt2018@gmail.com`).
+- **Kỹ thuật áp dụng:** Sử dụng module `smtplib.SMTP_SSL` kết hợp mã hóa bảo mật cổng `465` với tài khoản xác thực qua biến môi trường (`.env`), định dạng chuỗi kết quả theo từng phần khối (`--- SCAN ---`, `--- SERVICE ---`, `--- BANNER ---`, `--- MAP ---`).
+- **Kết quả thực hiện:** 
+  * Hộp thư người dùng nhận thành công thông báo với tiêu đề: *"Kết quả quét từ NetRecon"*.
+  * Nội dung email hiển thị chính xác toàn bộ bản ghi dữ liệu thực thi: trạng thái quét cổng, phản hồi từ Nmap (ghi nhận trạng thái host block ping probes), kết quả bắt banner các cổng (22, 80, 443 trả về trạng thái thời gian chờ `timed out`), và bảng định tuyến ánh xạ giao diện mạng cục bộ (`Interface: 192.168.136.1`)
