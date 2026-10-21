@@ -52,14 +52,14 @@ python .\app.py
 
 ## 4. Phân tích kết quả và Giải thích kỹ thuật
 
-Khi thực hiện quét file `vulnerable_01.py`, công cụ đã phát hiện tổng cộng **9 vấn đề bảo mật và chất lượng mã nguồn** (như hiển thị trên giao diện kết quả SARIF Viewer trong VS Code):
-![alt text](image-2.png)
-1. **Use of eval() detected:** Phát hiện việc sử dụng hàm `eval()` không kiểm soát đầu vào người dùng, có thể dẫn đến lỗ hổng Remote Code Execution (RCE).
-2. **Hardcoded password detected:** Phát hiện mật khẩu được gán cứng trực tiếp trong mã nguồn (`password = "123456"`), vi phạm nguyên tắc bảo mật thông tin nhạy cảm.
-3. **Usage of pickle module:** Phát hiện việc import module `pickle`, vốn có rủi ro thực thi mã độc khi giải tuần tự hóa dữ liệu không tin cậy.
-4. **Lint Issues (PEP 8 Violations):** Các lỗi phong cách lập trình từ `flake8` như `F401` (unused import), `E402` (module level import not at top of file), và `E302` (expected 2 blank lines).
+Khi thực thi tập lệnh kiểm tra động, hệ thống trả về các thông số kỹ thuật chi tiết:
+1. **Runtime Monitoring:** Theo dõi tiến trình hiện tại (PID, mức sử dụng CPU bằng `0.0`, dung lượng RAM tiêu thụ, và các tệp hệ thống đang mở như `KernelBase.dll.mui`).
+2. **Memory Analysis:** Kiểm tra rò rỉ bộ nhớ (không phát hiện rò rỉ: `[]`) và thực hiện kiểm tra tràn số thành công (`Overflow Test: True` đối với số nguyên lớn).
+3. **Network Stats:** Thống kê chi tiết trạng thái của các card mạng (`Ethernet`, `Wi-Fi`, các adapter ảo của `VMware`).
+4. **Security Behavior Check:** Nhận diện thành công các lệnh gọi đáng ngờ tiềm ẩn bên trong mã nguồn: `['os.system', 'eval', 'exec']`.
+5. **Virtual Sandbox Execution:** Thực thi an toàn câu lệnh mẫu trong môi trường cô lập, trả về kết quả `stdout: Hello Sandbox` và không có lỗi (`stderr`: rỗng).
 
 ---
 
 ## 5. Kết luận
-Công cụ SAST tự phát triển đã hoạt động thành công, đáp ứng tốt yêu cầu tự động hóa việc phát hiện lỗ hổng bảo mật dựa trên cả phương pháp phân tích cú pháp (AST), khớp mẫu (Regex) và kiểm tra chuẩn chất lượng mã nguồn (Linting), đồng thời chuẩn hóa định dạng xuất báo cáo theo chuẩn bảo mật quốc tế SARIF.
+Hệ thống công cụ kiểm tra bảo mật toàn diện (SAST & DAST) đã hoạt động chính xác và ổn định. Các module kiểm tra từ phân tích tĩnh mã nguồn, giám sát tiến trình thời gian thực, quản lý bộ nhớ, phân tích lưu lượng mạng đến môi trường thực thi cô lập (Sandbox) đều đáp ứng tốt các yêu cầu đặt ra, cung cấp nền tảng vững chắc để phát hiện và ngăn ngừa rủi ro bảo mật ứng dụng.
